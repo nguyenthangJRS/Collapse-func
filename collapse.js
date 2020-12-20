@@ -9,8 +9,6 @@ function toggle(info) {
         clickTarget.forEach(col =>{
             col.onclick = ()=>{
                 row.classList.toggle('un__collapse');
-                row.classList.toggle('show');
-               
             }
         })
         console.log( clickTarget);
